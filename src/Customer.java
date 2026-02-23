@@ -7,8 +7,8 @@ public class Customer {
     private final String email;
     private final String deliveryAddress;
     private final CustomerType customerType;
-    private final Double customerDiscount; // Can be null
-    private FoodVoucher foodVoucher; // Not final, can be assigned later
+    private final Double customerDiscount;
+    private FoodVoucher foodVoucher;
     public Customer(int id, String firstName, String lastName,
                     String email, String deliveryAddress,
                     CustomerType customerType, Double customerDiscount) {
